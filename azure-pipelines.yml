@@ -18,9 +18,4 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: AzureRmWebAppDeployment@4
-  displayName: 'Deploy Azure App Service'
-  inputs:
-    azureSubscription: '$(Parameters.ConnectedServiceName)'
-    appType: '$(Parameters.WebAppKind)'
-    WebAppName: '$(Parameters.WebAppName)'
+- task: PublishBuildArtifacts@1
