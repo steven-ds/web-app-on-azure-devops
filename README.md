@@ -1,4 +1,4 @@
-I created a static web application that I had to deploy through Azure App Service Deployment --> pizza-time.azurewebsites.net 
+I created a static web application that I had to deploy through **Azure App Service Deployment** --> [(https://pizza-time.azurewebsites.net/) ](https://pizza-time.azurewebsites.net/)
 
 1) Build a YAML file for pipeline. I'll use it later as an artifact.
 2) Publish it.
